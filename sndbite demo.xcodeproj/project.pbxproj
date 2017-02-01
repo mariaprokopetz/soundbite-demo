@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFD1AA891E4264BA00FD5769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1AA881E4264BA00FD5769 /* AppDelegate.swift */; };
+		FFD1AA8B1E4264BA00FD5769 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1AA8A1E4264BA00FD5769 /* RootViewController.swift */; };
+		FFD1AA8D1E4264BA00FD5769 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1AA8C1E4264BA00FD5769 /* DataViewController.swift */; };
+		FFD1AA8F1E4264BA00FD5769 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1AA8E1E4264BA00FD5769 /* ModelController.swift */; };
+		FFD1AA921E4264BA00FD5769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD1AA901E4264BA00FD5769 /* Main.storyboard */; };
+		FFD1AA941E4264BA00FD5769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD1AA931E4264BA00FD5769 /* Assets.xcassets */; };
+		FFD1AA971E4264BA00FD5769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD1AA951E4264BA00FD5769 /* LaunchScreen.storyboard */; };
+		FFD1AAA21E4264BB00FD5769 /* sndbite_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1AAA11E4264BB00FD5769 /* sndbite_demoTests.swift */; };
+		FFD1AAAD1E4264BB00FD5769 /* sndbite_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1AAAC1E4264BB00FD5769 /* sndbite_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD1AA9E1E4264BB00FD5769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD1AA7D1E4264BA00FD5769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD1AA841E4264BA00FD5769;
+			remoteInfo = "sndbite demo";
+		};
+		FFD1AAA91E4264BB00FD5769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD1AA7D1E4264BA00FD5769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD1AA841E4264BA00FD5769;
+			remoteInfo = "sndbite demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFD1AA851E4264BA00FD5769 /* sndbite demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sndbite demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD1AA881E4264BA00FD5769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFD1AA8A1E4264BA00FD5769 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FFD1AA8C1E4264BA00FD5769 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FFD1AA8E1E4264BA00FD5769 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FFD1AA911E4264BA00FD5769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFD1AA931E4264BA00FD5769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD1AA961E4264BA00FD5769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD1AA981E4264BA00FD5769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD1AA9D1E4264BB00FD5769 /* sndbite demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sndbite demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD1AAA11E4264BB00FD5769 /* sndbite_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sndbite_demoTests.swift; sourceTree = "<group>"; };
+		FFD1AAA31E4264BB00FD5769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD1AAA81E4264BB00FD5769 /* sndbite demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sndbite demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD1AAAC1E4264BB00FD5769 /* sndbite_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sndbite_demoUITests.swift; sourceTree = "<group>"; };
+		FFD1AAAE1E4264BB00FD5769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD1AA821E4264BA00FD5769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1AA9A1E4264BB00FD5769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1AAA51E4264BB00FD5769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFD1AA7C1E4264BA00FD5769 = {
+			isa = PBXGroup;
+			children = (
+				FFD1AA871E4264BA00FD5769 /* sndbite demo */,
+				FFD1AAA01E4264BB00FD5769 /* sndbite demoTests */,
+				FFD1AAAB1E4264BB00FD5769 /* sndbite demoUITests */,
+				FFD1AA861E4264BA00FD5769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD1AA861E4264BA00FD5769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1AA851E4264BA00FD5769 /* sndbite demo.app */,
+				FFD1AA9D1E4264BB00FD5769 /* sndbite demoTests.xctest */,
+				FFD1AAA81E4264BB00FD5769 /* sndbite demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD1AA871E4264BA00FD5769 /* sndbite demo */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1AA881E4264BA00FD5769 /* AppDelegate.swift */,
+				FFD1AA8A1E4264BA00FD5769 /* RootViewController.swift */,
+				FFD1AA8C1E4264BA00FD5769 /* DataViewController.swift */,
+				FFD1AA8E1E4264BA00FD5769 /* ModelController.swift */,
+				FFD1AA901E4264BA00FD5769 /* Main.storyboard */,
+				FFD1AA931E4264BA00FD5769 /* Assets.xcassets */,
+				FFD1AA951E4264BA00FD5769 /* LaunchScreen.storyboard */,
+				FFD1AA981E4264BA00FD5769 /* Info.plist */,
+			);
+			path = "sndbite demo";
+			sourceTree = "<group>";
+		};
+		FFD1AAA01E4264BB00FD5769 /* sndbite demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1AAA11E4264BB00FD5769 /* sndbite_demoTests.swift */,
+				FFD1AAA31E4264BB00FD5769 /* Info.plist */,
+			);
+			path = "sndbite demoTests";
+			sourceTree = "<group>";
+		};
+		FFD1AAAB1E4264BB00FD5769 /* sndbite demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD1AAAC1E4264BB00FD5769 /* sndbite_demoUITests.swift */,
+				FFD1AAAE1E4264BB00FD5769 /* Info.plist */,
+			);
+			path = "sndbite demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD1AA841E4264BA00FD5769 /* sndbite demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD1AAB11E4264BB00FD5769 /* Build configuration list for PBXNativeTarget "sndbite demo" */;
+			buildPhases = (
+				FFD1AA811E4264BA00FD5769 /* Sources */,
+				FFD1AA821E4264BA00FD5769 /* Frameworks */,
+				FFD1AA831E4264BA00FD5769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sndbite demo";
+			productName = "sndbite demo";
+			productReference = FFD1AA851E4264BA00FD5769 /* sndbite demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFD1AA9C1E4264BB00FD5769 /* sndbite demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD1AAB41E4264BB00FD5769 /* Build configuration list for PBXNativeTarget "sndbite demoTests" */;
+			buildPhases = (
+				FFD1AA991E4264BB00FD5769 /* Sources */,
+				FFD1AA9A1E4264BB00FD5769 /* Frameworks */,
+				FFD1AA9B1E4264BB00FD5769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD1AA9F1E4264BB00FD5769 /* PBXTargetDependency */,
+			);
+			name = "sndbite demoTests";
+			productName = "sndbite demoTests";
+			productReference = FFD1AA9D1E4264BB00FD5769 /* sndbite demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFD1AAA71E4264BB00FD5769 /* sndbite demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD1AAB71E4264BB00FD5769 /* Build configuration list for PBXNativeTarget "sndbite demoUITests" */;
+			buildPhases = (
+				FFD1AAA41E4264BB00FD5769 /* Sources */,
+				FFD1AAA51E4264BB00FD5769 /* Frameworks */,
+				FFD1AAA61E4264BB00FD5769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD1AAAA1E4264BB00FD5769 /* PBXTargetDependency */,
+			);
+			name = "sndbite demoUITests";
+			productName = "sndbite demoUITests";
+			productReference = FFD1AAA81E4264BB00FD5769 /* sndbite demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD1AA7D1E4264BA00FD5769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Maria Prokopetz";
+				TargetAttributes = {
+					FFD1AA841E4264BA00FD5769 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FFD1AA9C1E4264BB00FD5769 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFD1AA841E4264BA00FD5769;
+					};
+					FFD1AAA71E4264BB00FD5769 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFD1AA841E4264BA00FD5769;
+					};
+				};
+			};
+			buildConfigurationList = FFD1AA801E4264BA00FD5769 /* Build configuration list for PBXProject "sndbite demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD1AA7C1E4264BA00FD5769;
+			productRefGroup = FFD1AA861E4264BA00FD5769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD1AA841E4264BA00FD5769 /* sndbite demo */,
+				FFD1AA9C1E4264BB00FD5769 /* sndbite demoTests */,
+				FFD1AAA71E4264BB00FD5769 /* sndbite demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD1AA831E4264BA00FD5769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1AA971E4264BA00FD5769 /* LaunchScreen.storyboard in Resources */,
+				FFD1AA941E4264BA00FD5769 /* Assets.xcassets in Resources */,
+				FFD1AA921E4264BA00FD5769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1AA9B1E4264BB00FD5769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1AAA61E4264BB00FD5769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD1AA811E4264BA00FD5769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1AA8B1E4264BA00FD5769 /* RootViewController.swift in Sources */,
+				FFD1AA8F1E4264BA00FD5769 /* ModelController.swift in Sources */,
+				FFD1AA8D1E4264BA00FD5769 /* DataViewController.swift in Sources */,
+				FFD1AA891E4264BA00FD5769 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1AA991E4264BB00FD5769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1AAA21E4264BB00FD5769 /* sndbite_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD1AAA41E4264BB00FD5769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD1AAAD1E4264BB00FD5769 /* sndbite_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD1AA9F1E4264BB00FD5769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD1AA841E4264BA00FD5769 /* sndbite demo */;
+			targetProxy = FFD1AA9E1E4264BB00FD5769 /* PBXContainerItemProxy */;
+		};
+		FFD1AAAA1E4264BB00FD5769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD1AA841E4264BA00FD5769 /* sndbite demo */;
+			targetProxy = FFD1AAA91E4264BB00FD5769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFD1AA901E4264BA00FD5769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD1AA911E4264BA00FD5769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFD1AA951E4264BA00FD5769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD1AA961E4264BA00FD5769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD1AAAF1E4264BB00FD5769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD1AAB01E4264BB00FD5769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD1AAB21E4264BB00FD5769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sndbite demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pink-princess-llc.sndbite-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFD1AAB31E4264BB00FD5769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sndbite demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pink-princess-llc.sndbite-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FFD1AAB51E4264BB00FD5769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "sndbite demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pink-princess-llc.sndbite-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sndbite demo.app/sndbite demo";
+			};
+			name = Debug;
+		};
+		FFD1AAB61E4264BB00FD5769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "sndbite demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pink-princess-llc.sndbite-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sndbite demo.app/sndbite demo";
+			};
+			name = Release;
+		};
+		FFD1AAB81E4264BB00FD5769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "sndbite demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pink-princess-llc.sndbite-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "sndbite demo";
+			};
+			name = Debug;
+		};
+		FFD1AAB91E4264BB00FD5769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "sndbite demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pink-princess-llc.sndbite-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "sndbite demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD1AA801E4264BA00FD5769 /* Build configuration list for PBXProject "sndbite demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1AAAF1E4264BB00FD5769 /* Debug */,
+				FFD1AAB01E4264BB00FD5769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD1AAB11E4264BB00FD5769 /* Build configuration list for PBXNativeTarget "sndbite demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1AAB21E4264BB00FD5769 /* Debug */,
+				FFD1AAB31E4264BB00FD5769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFD1AAB41E4264BB00FD5769 /* Build configuration list for PBXNativeTarget "sndbite demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1AAB51E4264BB00FD5769 /* Debug */,
+				FFD1AAB61E4264BB00FD5769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFD1AAB71E4264BB00FD5769 /* Build configuration list for PBXNativeTarget "sndbite demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD1AAB81E4264BB00FD5769 /* Debug */,
+				FFD1AAB91E4264BB00FD5769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD1AA7D1E4264BA00FD5769 /* Project object */;
+}
